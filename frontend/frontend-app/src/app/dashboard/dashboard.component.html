@@ -1,0 +1,43 @@
+<div class="dashboard-container">
+  <h1>Dashboard</h1>
+
+  <div class="button-group">
+    <button (click)="loadUsers()">Load Users</button>
+    <button (click)="loadProducts()">Load Products</button>
+  </div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div class="results">
+    <div class="users-section">
+      <h2>Users</h2>
+      <div *ngIf="loadingUsers">Loading users...</div>
+      <ul *ngIf="!loadingUsers && users?.length">
+        <li *ngFor="let user of users">
+          <strong>{{ user.name }}</strong> (ID: {{ user.id }}) -
+          {{ user.email }} - Age: {{ user.age }}
+        </li>
+      </ul>
+      <div *ngIf="!loadingUsers && !users?.length">
+        No users loaded.
+      </div>
+    </div>
+
+    <div class="products-section">
+      <h2>Products</h2>
+      <div *ngIf="loadingProducts">Loading products...</div>
+      <ul *ngIf="!loadingProducts && products?.length">
+        <li *ngFor="let product of products">
+          <strong>{{ product.name }}</strong> (ID: {{ product.id }}) -
+          {{ product.category }} - Price: {{ product.price | currency }}
+        </li>
+      </ul>
+      <div *ngIf="!loadingProducts && !products?.length">
+        No products loaded.
+      </div>
+    </div>
+  </div>
+</div>
+
