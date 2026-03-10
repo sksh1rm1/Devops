@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: user-api
-        image: sksh1rm1/user-api:latest
+        image: ghcr.io/sksh1rm1/user-api:latest
         ports:
         - containerPort: 5000
