@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\Docker\\Devops\\devops\\backend\\product-api\\ProductApi\\ProductApi.csproj": {}
+    "D:\\Personal\\Docker\\Devops\\Devops\\backend\\product-api\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\Docker\\Devops\\devops\\backend\\product-api\\ProductApi\\ProductApi.csproj": {
+    "D:\\Personal\\Docker\\Devops\\Devops\\backend\\product-api\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Docker\\Devops\\devops\\backend\\product-api\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "D:\\Personal\\Docker\\Devops\\Devops\\backend\\product-api\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "D:\\Personal\\Docker\\Devops\\devops\\backend\\product-api\\ProductApi\\ProductApi.csproj",
+        "projectPath": "D:\\Personal\\Docker\\Devops\\Devops\\backend\\product-api\\ProductApi\\ProductApi.csproj",
         "packagesPath": "D:\\nuget-packages",
-        "outputPath": "D:\\Personal\\Docker\\Devops\\devops\\backend\\product-api\\ProductApi\\obj\\",
+        "outputPath": "D:\\Personal\\Docker\\Devops\\Devops\\backend\\product-api\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
