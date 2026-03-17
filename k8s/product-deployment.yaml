@@ -17,3 +17,4 @@ spec:
         image: ghcr.io/sksh1rm1/product-api:latest
         ports:
         - containerPort: 5000
+        imagePullPolicy: Always
